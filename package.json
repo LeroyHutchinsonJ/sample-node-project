@@ -1,0 +1,14 @@
+{
+  "name": "sample-node-project",
+  "version": "1.0.0",
+  "description": "A sample node project",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodemon src/index.js localhost 8080"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "nodemon": "1.18.4"
+  },
+  "keywords": []
+}
