@@ -9,6 +9,7 @@ const port = 8080;
 
 //This reads a file, if there is an err, throw the error, otherwise run the file
 fs.readFile("src/blob.html", (err, html) => {
+  //Throw an error
   if (err) {
     throw err;
   } else {
